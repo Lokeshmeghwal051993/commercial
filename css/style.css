@@ -6,8 +6,10 @@
 .commercial {
     width: 90%;
     height: 35vh;
-    color: rgb(6, 242, 6);
-    background-color: rgba(75, 78, 78, 0.824);
+    /* color: rgb(6, 242, 6); */
+    /* color: rgb(211, 242, 6); */
+    /* background-color: rgba(75, 78, 78, 0.824); */
+    background-color: rgba(131, 223, 223, 0.824);
     text-align: center;
     line-height: 1.2;
     margin: auto;
