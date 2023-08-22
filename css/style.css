@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.commercial {
+    width: 90%;
+    height: 35vh;
+    color: rgb(6, 242, 6);
+    background-color: rgba(75, 78, 78, 0.824);
+    text-align: center;
+    line-height: 1.2;
+    margin: auto;
+
+}
+
+.commercial>h1 {
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.commercial>p {
+    font-size: 20px;
+    color: rgb(6, 196, 6);
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: rgb(20, 172, 20);
+    width: 90%;
+    margin: 50px auto;
+}
+
+ul>li {
+    color: white;
+    font-size: 28px;
+    padding: 10px;
+}
+
+li:hover {
+    color: white;
+    background-color: rgb(41, 72, 41);
+}
+
+.image {
+    width: 90%;
+    height: 40vh;
+    background-image: url("../IMG/traffic.jpg");
+    background-size: 100% 40vh;
+    margin: 50px auto;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    justify-content: space-between;
+}
+
+
+.contain-1>h2 {
+    font-size: 35px;
+    color: rgb(40, 209, 40);
+    border-bottom: 2px solid grey;
+    margin-right: 5px;
+    padding: 20px 0px;
+}
+
+.contain-1>p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contain-2>h1 {
+    font-size: 50px;
+    color: rgb(35, 211, 35);
+    margin-top: 10px;
+    padding-bottom:10px;
+    
+}
+
+.contain-2>a {
+    font-size: 18px;
+    color: grey;
+
+}
+.contain-2 a> strong{
+    color:black;
+    font-weight:bold;
+
+}
+
+.contain-2>p {
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.footer {
+    width: 90%;
+    height: 10vh;
+    background-color: rgba(75, 78, 78, 0.824);
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top:40px;;
+}
+
+
+.footer a>strong {
+    color: rgb(25, 238, 25);
+
+
+}
+::selection{
+    background-color:blue;
+    color:white;
+}
